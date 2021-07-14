@@ -1,0 +1,20 @@
+{
+  "name": "xkcd-latest",
+  "version": "1.0.0",
+  "description": "Grabs latest xkcd comic",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon app.js"
+  },
+  "author": "griffin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
