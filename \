@@ -1,0 +1,7 @@
+= xkcd-latest =
+`Grabs latest XKCD comic`
+
+== Deployment ==
+The app is deployed on heroku.
+
+https://xkcd-latest.herokuapp.com/xkcd-latest
