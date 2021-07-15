@@ -10,6 +10,11 @@ const routes = [
         path: '/xkcd-latest',
         method: 'GET',
         action: [comics.getLatest] 
+    },
+    {
+        path: '/xkcd-random/:min?(-:max)?',
+        method: 'GET',
+        action: [comics.getRandom] 
     }
 ];
 
